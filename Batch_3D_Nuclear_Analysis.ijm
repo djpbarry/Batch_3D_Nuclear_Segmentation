@@ -1,12 +1,8 @@
 ext = ".tif";
 
-//deconFolder = getDirectory("Choose directory for deconvolved images");
-//rawFolder = getDirectory("Choose directory for raw intensities");
-//outputFolder = getDirectory("Choose a directory for outputs");
-
-deconFolder = "Y:/project4/inputdata/widefield_tumour_decon";
-rawFolder = "D:/temp";
-outputFolder = "D:/OneDrive - The Francis Crick Institute/Data_Challenge/outputs/tumour";
+deconFolder = getDirectory("Choose directory for deconvolved images");
+rawFolder = getDirectory("Choose directory for raw intensities");
+outputFolder = getDirectory("Choose a directory for outputs");
 
 setBatchMode(true);
 
